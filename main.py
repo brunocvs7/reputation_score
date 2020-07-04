@@ -38,4 +38,4 @@ for date in range_dates[1:]:
     except:
         logs_fail.append(since)
     else:
-        df_tweets.to_csv(DATA_OUTPUT_PATH, index=False, header=False, mode='a')
+        df_tweets.to_csv(DATA_OUTPUT_PATH_RAW, index=False, header=False, mode='a')
